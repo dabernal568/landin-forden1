@@ -1,0 +1,1162 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+html{
+    overflow-x: hidden;
+}
+header .container a img{
+    width: 15%;
+}
+header .container a{
+    color: #f7f7f7;
+    text-decoration: none;
+}
+header .container-fluid{
+    background: url(../img/background-1.png) no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 90vh;
+    
+}
+header .container-fluid button{
+    position: absolute;
+    left: 550px;
+}
+
+header .navbar{
+    background-color: #0B695B;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+header .navbar .opciones ul li .principal{
+    color: #f7f7f7;
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+}
+header .navbar .opciones{
+    justify-content: flex-end;
+}
+
+header .navbar .opciones ul li .principal:hover{
+    text-decoration: underline;
+}
+header .navbar .opciones ul li .caja{
+    position: absolute;
+    max-width: 100%;
+    top: 68px;
+    left: -50px;
+    background-color: #0B695B;
+    
+}
+header .navbar .opciones ul li .caja .secundario{
+    color: #f7f7f7;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+header .navbar .opciones ul li .caja .secundario:hover{
+    background-color: #79D698;
+}
+
+.container-fluid button{
+    background: #0B695B;
+    font-size: 20px;
+    color: #f7f7f7;
+    border-style: #79D698;
+    font-family: 'Libre Baskerville', serif;
+    position: absolute;
+    border-radius: 25px;
+    width: 10%;
+    height: 10vh;
+    top: o;
+    right: 0;
+    left: 0;   
+}
+header .container-fluid .container-web{
+    position: absolute;
+    width: 90%;
+    top: 450px;
+    left: 300px;
+}
+
+
+/*Section2*/
+#section2 .caja2{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: #f7f7f7;
+    background-color: #0B695B;
+    width: 55%;
+    height: 35vh;
+    position: absolute;
+    top: 600px;
+    right: 0;
+    left: 0;
+    margin: -50px auto;
+}
+#section2 .container .caja2 h1{
+    font-size: 60px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+#section2 .container .caja2 #hey{
+    font-size: 30px;
+}
+#section2 .container .caja2 #made{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+/*Section3*/
+
+#section3{
+    margin-left: 0px;  
+}
+#section3{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+}
+
+#section3 .container-color h3{
+    color: transparent;
+}
+#section3 .caja{
+    margin: 0 auto;
+    width: 1400px;
+    margin-top: 0px;
+}
+#section3 .boton1{
+    background: url(../img/boton1.png) no-repeat;
+    width: 40vh;
+    height: 80vh;
+    background-size: cover;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0B695B;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px;
+    color: #0B695B;
+}
+#section3 .boton2{
+    background: url(../img/boton2.png)no-repeat;
+    background-size: cover;
+    width: 40vh;
+    height: 80vh;
+    margin-left: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0B695B;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px;
+    color: #0B695B;
+}
+#section3 .boton3{
+    background: url(../img/boton3.png) no-repeat;
+    background-size: cover;
+    width: 40vh;
+    height: 80vh;
+    margin-left: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0B695B;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px;
+    color: #0B695B;
+}
+
+/*Section4*/
+
+#section4{
+    margin-top: 0px;
+    background: url(../img/background-2.png);
+    width: 100%;
+    background-size: cover;
+    height: 150vh;
+    margin-bottom: 50px;
+}
+#section4 #objet1{
+    background-color: #0B695B;
+    width: 80%;
+    height: 50vh;
+    position: absolute;
+    top: 2200px;
+    right: 0;
+    left: 100px;
+    margin: 0 auto;
+}
+#section4 #objet1 .row .col-8 .tab-content .info{
+    color: #f7f7f7;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Libre Baskerville', serif;
+}
+#section4 #objet1 .row .col-8 .tab-content .info h3{
+    font-size: 40px;
+}
+#section4 #objet1 .row .col-8 .tab-content .info p{
+    padding-top: 30px;
+    font-size: 20px;
+}
+#section4 #objet1 .row .col-8 .tab-content .bajar{
+    height: 55vh;
+    
+}
+#section4 #objet1 .row .col-4 img{
+    margin-top: 110px;
+    margin-left: 100px;
+    width: 60%;
+    height: 30vh;
+}
+
+/*Section5*/ 
+
+#section5 .row{
+    position: relative;
+    left: 300px;
+    border-style: solid;
+    border-color: #0B695B;
+    border-width: 5px;
+    width: 75%;
+    height: 50vh;
+    
+}
+#section5 img{
+    position: absolute;
+    width: 100%;
+    height: 110vh;
+    left: -350px;
+    top: -5px;
+    margin-bottom: 0px;
+    
+}
+#section5 .row .col-6{
+    color: #0B695B;
+    font-family: 'Libre Baskerville', serif;
+}
+#section5 .row .col-6 h4{
+    font-size: 50px;
+    position: relative;
+    left: -350px;
+}
+#section5 .row .col-6 p{
+    font-size: 30px;
+    position: absolute;
+    left: -350px;
+}
+
+/*Section6*/
+
+#section6 .container-fluid .row .col-3 .circle{
+    width: 20vh;
+    height: 20vh;
+    border-color: #0B695B;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: -50px;
+    margin-bottom: 50px;
+}
+#section6 .container-fluid .row .col-3 .circle:hover{
+    background-color: #79D698;
+}
+#section6 .container-fluid .row .col-3 .circle p{
+    font-size: 30px;
+    text-align: center;
+    color: #0B695B;
+    padding-top: 30px;
+}
+
+ 
+
+
+/*Section7*/
+#section7 .row{
+    border-style: solid;
+    border-color: #0B695B;
+    border-width: 5px;
+    width: 80%;
+    height: 50vh;
+    margin-top: 100px;
+    
+}
+#section7 img{
+    position: relative;
+    left: 300px;
+    width: 100%;
+    height: 100vh;
+    
+}
+#section7 .row .col-6{
+    color: #0B695B;
+    
+    font-family: 'Libre Baskerville', serif;
+}
+#section7 .row .col-6 h4{
+    font-size: 45px;
+}
+#section7 .row .col-6 p{
+    font-size: 25px;
+    text-align: justify;
+    
+}
+
+/*Section8*/
+
+#section8 .container .row{
+    
+    position: relative;
+    left: 250px;
+    width: 160vh;
+    
+    
+    
+}
+#section8 .container .row .col-md-6 .accordion{
+    margin-top: 50px;
+}
+#section8 img{
+    position: absolute;
+    top: 0;
+    left: 500px;
+}
+
+#section8 .card{
+    position: relative;
+    left: -300px;
+    border-style: solid;
+    border-color: #0B695B;
+    border-width: 5px;
+    margin-top: 10px;
+    
+}
+#section8 .container .row .col-md-6 .accordion .card .card-header h2 button{
+    font-size: 30px;
+    color: #79D698;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', serif;
+}
+#section8 .container .row .col-md-6 .accordion .card .collapse{
+    font-size: 30px;
+    color: #0B695B;
+    font-family: 'Libre Baskerville', serif;
+}
+
+/*Section9*/
+
+#section9{
+    background: url(../img/background-3.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    margin-top: 200px;
+    text-align: center;
+    
+}
+#section9 h3{
+    position: static;
+    font-size: 60px;
+    color: #0B695B;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 50px;
+}
+#section9 .caja3{
+    border-style: solid;
+    border-color: #0B695B;
+    border-width: 5px;
+    width: 70%;
+    margin: 0 auto;
+}
+#section9 .caja3 p{
+    font-size: 30px;
+    color: #0B695B;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 600;
+}
+
+/*Section10*/
+
+#section10 {
+    margin-top: 100px;
+    width: 100%;
+}
+#section10 .caja4{
+    width: 100%;
+    margin: 0 auto;
+}
+#section10 .caja4 .col-4 h2{
+    text-align: center;
+    font-size: 40px;
+    color: #0B695B;
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 30px;
+}
+
+/*Section11*/
+#section11{
+    margin-top: 100px;
+    width: 100%;
+}
+#section11 .caja5{
+    margin: 0 auto;
+    height: 10vh;
+    width: 94vh;
+    color: #0B695B;
+   
+    font-family: 'Libre Baskerville', serif;
+}
+#section11 .caja5 h3{
+    font-size: 50px;
+    text-align: start;
+}
+#section11 .slider{
+    position: static;
+    width: 100%;
+    
+}
+
+#section11 a img{
+    position: relative;
+    left: 400px;
+    height: 20vh;
+}
+
+#section11 .slider .carousel .carousel-inner .carousel-item .carousel-caption h5{
+    position: static;
+    left: 40px;
+    top: -100px;
+    color: #79D698;
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+}
+#section11 .slider .carousel .carousel-inner .carousel-item .carousel-caption p{
+    position: relative;
+    left: 40px;
+    color: #79D698;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+.carousel-item{
+    position: relative;
+    left: 290px;
+}
+#section11 .slider .carousel .atras{
+    left: -400px;
+}
+#section11 .slider .carousel .adelante{
+    right: 650px;
+}
+
+/*footer*/
+
+footer{
+    position: relative;
+    top: 100px;
+    margin-top: 0;
+    width: 100%;
+    height: 40vh;
+    margin: 0 auto;
+    background-color: #0B695B;
+}
+footer .caja6{
+    width: 100%;
+}
+footer .caja6 button{
+    width: 70%;
+    height: 10vh;
+    background-color: #79D698;
+    color: #f7f7f7;
+    border-style: solid;
+    border-width: 5px;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: 'Libre Baskerville', serif;
+    border-color: #f7f7f7;
+}
+footer img{
+    position: relative;
+    top: 100px;
+    padding-left: 0px;
+    width: 50%;
+    height: 10vh;
+    margin-left: 100px;   
+}
+footer .dropdown-menu{
+    background: #79D698;
+}
+footer .dropdown-menu a{
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* RESPONSIVE PARA TABLETS */
+@media screen and (max-width:990px ) and (min-width: 768px ){
+    header .container-fluid{
+        position: relative;
+        margin-top: 20px;
+        width: 200vh;
+        height: 50vh;
+    }
+    header .navbar{
+        max-width: 100%;
+    }
+    header .container a{
+        position: fixed;
+        justify-content: flex-end;
+        width: 10%;
+    }
+    header .container-fluid button{
+        position: relative;
+        font-size: 7px;
+        left: 0;
+        top: -390px;
+        width: 10vh;
+        height: 6vh;
+        
+    }
+   
+    header .container{
+        width: 100%;
+        height: 10px;
+    }
+    header .container button img{
+        position: relative;
+        top: 5px;
+        left: -20px;
+        width: 40%;
+        height: 20px;
+    }
+    header .container button{
+        position: relative;
+        left: 0px;
+        width: 20%;
+    
+    }
+    header .navbar .opciones ul li .principal{
+        position: relative;
+        font-size: 6px;
+    }
+    header .navbar .opciones ul li .caja{  
+        width: 5%;
+        height: 30px;
+        
+    }
+    header .navbar .opciones ul li .caja .secundario{
+        position: relative;
+        left: 25px;
+        top: -8px;
+        font-size: 6px;
+        
+    }
+    /* section2 */
+    #section2{
+        width: 100%;
+        height: 10vh;
+    }
+    #section2 .caja2{
+        position: absolute;
+        top: 140px;
+        width: 50%;
+        height: 15vh;
+    }
+    #section2 .container .caja2 h1{        
+        font-size: 6px;
+    }
+    #section2 .container .caja2 #hey{
+        position: relative;
+        top: -30px;
+        font-size: 7px;
+    }
+    #section2 .container .caja2 #made{
+        position: relative;
+        top: -60px;
+        font-size: 7px;
+    }
+    #section3{
+        max-width: 30%;
+    } 
+    #section3 .boton1{
+        font-size: 7px;
+        width: 20vh;
+        height: 50vh;
+    }
+    #section3 .boton2{
+        font-size: 7px;
+        width: 20vh;
+        height: 50vh;
+    }
+    #section3 .boton3{
+        font-size: 7px;
+        width: 20vh;
+        height: 50vh;
+    }
+    #section3 .caja{
+        width: 300px;
+    }
+    #section3 .caja .boton1{
+        width: 90px;
+        height: 220px;
+        margin-left: 5px;
+        font-size: 10px;
+        padding-top: 50px;
+    }
+    #section3 .caja .boton2{
+        width: 90px;
+        height: 220px;
+        margin-left: 5px;
+        font-size: 12px;
+        padding-top: 50px;
+    }
+    #section3 .caja .boton3{
+        width: 90px;
+        height: 220px;
+        margin-left: 5px;
+        font-size: 12px;
+        padding-top: 50px;
+    }
+
+    #section4{
+        background-position-x: center;
+        margin-top: 80px;
+    }
+    #section4 #objet1{
+        max-width: 300px;
+        height: 450px;
+        top: 1600px;
+    }
+    #section4 #objet1 .row .col-8 .tab-content .info h3{
+        font-size: 20px;
+    }
+    #section4 #objet1 .row .col-8 .tab-content .bajar{
+        height: 450px;
+        overflow-y: scroll;
+    }
+    #section4 #objet1 .row .col-8 .tab-content .info p{
+        padding-top: 30px;
+        text-align: justify;
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    #section4 #objet1 .row .col-4 img{
+        width: 60px;
+        height: 40px;
+        margin-top: 200px;
+    }
+
+
+
+
+    #section5 .row{
+        width: 300px;
+        height: 300px;
+    }
+    #section5 img{
+        width: 200px;
+        height: 200px;
+        top: 2900px;
+    }
+    #section5 .row .col-6 h4{
+        font-size: 15px;
+    }
+    #section5 .row .col-6 p{
+        font-size: 10px;
+    }
+
+
+    #section6 .container-fluid .row .col-3 .circle{
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #section6 .container-fluid .row .col-3 .circle p{
+        font-size: 10px;
+        padding-top: 25px;
+    }
+
+
+
+    #section7 .row{
+        width: 300px;
+        height: 250px;
+    }
+    #section7 img{
+        width: 250px;
+        height: 250px;
+        top: 3400px;
+    }
+    #section7 .row .col-6 h4{
+        font-size: 15px;
+    }
+    #section7 .row .col-6 p{
+        font-size: 10px;
+    }
+
+
+
+    #section8 .container-fluid .row{
+        width: 500px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion{
+        margin-top: 30px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion .card{
+        margin-top: 10px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion .card .card-header h2 button{
+        font-size: 10px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion .card .information{
+        font-size: 10px;
+    }
+
+
+
+    #section9{
+        top: 3850px;
+        height: 400px;
+    }
+    #section9 h3{
+        font-size: 20px;
+    }
+    #section9 .caja3{
+        width: 300px;
+    }
+    #section9 .caja3 p{
+        font-size: 10px;
+    }
+
+
+
+    #section10 {
+        top: 4280px;
+    }
+    #section10 .caja4{
+        width: 300px;
+    }
+    #section10 .caja4 img{
+        width: 50px;
+        height: 50px;
+    }
+    #section10 .caja4 .col-4 h2{
+        font-size: 15px;
+    }
+
+
+
+
+    #section11{
+        top: 4500px;
+    }
+    #section11 .caja5{
+        width: 220px;
+    }
+    #section11 .caja5 h3{
+        font-size: 20px;
+    }
+    #section11 .slider{
+        width: 220px;
+        height: 450px;
+    }
+    #section11 .slider .carousel .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 20px;
+    }
+    #section11 .slider .carousel .carousel-inner .carousel-item img{
+        background-position-x: center;
+    }
+    #section11 .slider .carousel .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 15px;
+    }
+    #section11 .slider .carousel .atras{
+        left: -40px;
+    }
+    #section11 .slider .carousel .atras img{
+        width: 50px;
+        height: 50px;
+    }
+    #section11 .slider .carousel .adelante{
+        right: -40px;
+    }
+    #section11 .slider .carousel .adelante img{
+        width: 50px;
+        height: 50px;
+    }
+
+
+
+
+    #section12{
+        top: 5000px;
+        height: 350px;
+    }
+    #section12 .caja6{
+        width: 300px;
+        padding-top: 30px;
+    }
+    #section12 .caja6 button{
+        width: 100px;
+        height: 30px;
+        border-width: 2px;
+        font-size: 12px;
+    }
+    #section12 .caja6 .col-8{
+        padding-top: 120px;
+    }
+    #section12 .caja6 .col-8 .row .col-4 a img{
+        width: 40px;
+        height: 40px;
+        margin-left: 0px;
+    }
+
+} 
+
+
+
+/* RESPONSIVE PARA IPHONES */
+@media screen and (max-width: 520px ) and (min-width: 320px){
+    header .container-fluid{
+        position: static;
+        margin-top: 20px;
+        max-width: 520px;
+        min-width: 320px;
+        height: 320px;
+    }
+    header .navbar{
+        max-width: 520px;
+        min-width: 320px;
+
+    }
+    header .container a{
+        position: fixed;
+        justify-content: flex-end;
+        width: 10%;
+    }
+    header .container-fluid button{
+        position: relative;
+        font-size: 7px;
+        left: -200px;
+        top: -390px;
+        width: 10vh;
+        height: 6vh;
+        
+    }
+   
+    header .container{
+        width: 100%;
+        height: 10px;
+    }
+    header .container button img{
+        position: relative;
+        top: 5px;
+        left: -20px;
+        width: 40%;
+        height: 20px;
+    }
+    header .container button{
+        position: relative;
+        left: 0px;
+        width: 20%;
+    
+    }
+    header .navbar .opciones ul li .principal{
+        position: relative;
+        font-size: 6px;
+    }
+    header .navbar .opciones ul li .caja{  
+        width: 5%;
+        height: 30px;
+        
+    }
+    header .navbar .opciones ul li .caja .secundario{
+        position: relative;
+        left: 25px;
+        top: -8px;
+        font-size: 6px;
+        
+    }
+    /* section2 */
+    #section2{
+        width: 100%;
+        height: 10vh;
+    }
+    #section2 .caja2{
+        position: absolute;
+        top: 140px;
+        max-width: 520px ;
+        min-width: 320px;
+        height: 15vh;
+    }
+    #section2 .container .caja2 h1{        
+        font-size: 6px;
+    }
+    #section2 .container .caja2 #hey{
+        position: relative;
+        top: -30px;
+        font-size: 7px;
+    }
+    #section2 .container .caja2 #made{
+        position: relative;
+        top: -60px;
+        font-size: 7px;
+    }
+    #section3{
+        max-width: 30%;
+    } 
+   
+    #section3 .caja .boton1{
+        width: 90px;
+        height: 220px;
+        margin-left: 15px;
+        font-size: 10px;
+        padding-top: 50px;
+    }
+    #section3 .caja .boton2{
+        width: 90px;
+        height: 220px;
+        margin-left: 5px;
+        font-size: 12px;
+        padding-top: 50px;
+    }
+    #section3 .caja .boton3{
+        width: 90px;
+        height: 220px;
+        margin-left: 5px;
+        font-size: 12px;
+        padding-top: 50px;
+    }
+
+    #section4{
+        position: static;
+        width: 320px;
+        height: 70vh;
+        
+        
+    }
+    #section4 .col-8{
+        position: relative;
+        left: 10px;
+    }
+    #section4 #objet1{
+        position: absolute;
+        left: -60px;
+        width: 200px;
+        height: 40%;
+        top: 900px;
+        margin: 20px auto;
+    }
+    #section4 #objet1 .row .col-8 .tab-content .info h3{
+        font-size: 6px;
+    }
+    #section4 #objet1 .row .col-8 .tab-content .bajar{
+        height: 450px;
+        
+    }
+    #section4 #objet1 .row .col-8 .tab-content .info p{
+        padding-top: 30px;
+        text-align: justify;
+        font-size: 6px;
+        padding: 0 10px;
+    }
+    #section4 #objet1 .row .col-4 img{
+        position: absolute;
+        top: 70px;
+        left: -0px;
+        width: 50%;
+        height: 10vh;
+        margin: 0 auto;
+
+    }
+    #section4 #objet1 .row .col-4+{
+        margin: 0 auto;
+    }
+
+
+
+    #section5{
+        width: 100%;
+        max-width: 520px;
+        height: 100%;
+    }
+    #section5 .row{
+        position: absolute;
+        left: 50px;
+        
+        width: 220px;
+       
+        height: 200px;
+    }
+    #section5 img{
+        width: 200px;
+        height: 200px;
+        top: 2900px;
+    }
+    #section5 .row .col-6 h4{
+        position: relative;
+        left: -200px;
+        font-size: 15px;
+    }
+    #section5 .row .col-6 p{
+        font-size: 10px;
+    }
+
+
+    #section6 .container-fluid .row .col-3 .circle{
+        max-width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #section6 .container-fluid .row .col-3 .circle p{
+        font-size: 3px;
+        padding-top: 25px;
+    }
+
+
+
+    #section7 .row{
+        width: 300px;
+        height: 250px;
+    }
+    #section7 img{
+        width: 250px;
+        height: 250px;
+        top: 3400px;
+    }
+    #section7 .row .col-6 h4{
+        font-size: 15px;
+    }
+    #section7 .row .col-6 p{
+        font-size: 10px;
+    }
+
+
+
+    #section8 .container-fluid .row{
+        width: 500px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion{
+        margin-top: 30px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion .card{
+        margin-top: 10px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion .card .card-header h2 button{
+        font-size: 10px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion .card .information{
+        font-size: 10px;
+    }
+
+
+
+    #section9{
+        top: 3850px;
+        height: 400px;
+    }
+    #section9 h3{
+        font-size: 20px;
+    }
+    #section9 .caja3{
+        width: 300px;
+    }
+    #section9 .caja3 p{
+        font-size: 10px;
+    }
+
+
+
+    #section10 {
+        top: 4280px;
+    }
+    #section10 .caja4{
+        width: 300px;
+    }
+    #section10 .caja4 img{
+        width: 50px;
+        height: 50px;
+    }
+    #section10 .caja4 .col-4 h2{
+        font-size: 15px;
+    }
+
+
+
+
+    #section11{
+        top: 4500px;
+    }
+    #section11 .caja5{
+        width: 220px;
+    }
+    #section11 .caja5 h3{
+        font-size: 20px;
+    }
+    #section11 .slider{
+        width: 220px;
+        height: 450px;
+    }
+    #section11 .slider .carousel .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 20px;
+    }
+    #section11 .slider .carousel .carousel-inner .carousel-item img{
+        background-position-x: center;
+    }
+    #section11 .slider .carousel .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 15px;
+    }
+    #section11 .slider .carousel .atras{
+        left: -40px;
+    }
+    #section11 .slider .carousel .atras img{
+        width: 50px;
+        height: 50px;
+    }
+    #section11 .slider .carousel .adelante{
+        right: -40px;
+    }
+    #section11 .slider .carousel .adelante img{
+        width: 50px;
+        height: 50px;
+    }
+
+
+
+
+    #section12{
+        top: 5000px;
+        height: 350px;
+    }
+    #section12 .caja6{
+        width: 300px;
+        padding-top: 30px;
+    }
+    #section12 .caja6 button{
+        width: 100px;
+        height: 30px;
+        border-width: 2px;
+        font-size: 12px;
+    }
+    #section12 .caja6 .col-8{
+        padding-top: 120px;
+    }
+    #section12 .caja6 .col-8 .row .col-4 a img{
+        width: 40px;
+        height: 40px;
+        margin-left: 0px;
+    }
+}
+
+
+
+
+
+
